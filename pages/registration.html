@@ -51,152 +51,99 @@
       <main>
         <div class="h2RF-container">
             <h2>Registration Form</h2>
-            <span>Become a member!</span>
+            <span>Complete the form and become a MDHL member!</span>
         </div>
         <section class="form-section">
             <div class="form-container">
               <form action="show_data.html" method="get">
+                <h3 class="yourinf">Player's information:</h3>
                 <div class="form-first-part">
                   <div class="form-part1">
-                    <label for="first-name">Player's First Name:</label>
-                    <input type="text" id="firstname" name="firstname" required/>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" size="73px" required/>
                   </div>
                   <div class="form-part2">
                     <label for="last-name">Last Name:</label>
-                    <input type="text" id="lastname" name="lastname" required/>
+                    <input type="text" id="lastname" name="lastname" size="73px" required/>
                   </div>
                   <div class="form-part3">
                     <label for="address">Street Address:</label>
-                    <input type="text" name="address" id="street-addres" size="66px" required/>
+                    <input type="text" name="address" id="street-addres" size="68px" required/>
                   </div>
-                  <div class="form-part4">
-                    <label for="city">City:</label>
-                    <input type="text" name="city" id="city" size="37px" required/>
+                  <div class="form-city-zip">
+                    <div class="form-part4">
+                      <label for="city">City:</label>
+                      <input type="text" name="city" id="city" size="36px" required/>
+                    </div>
+                    <div class="form-part5">
+                      <label for="zip">Zip Code:</label>
+                      <input type="text" name="zip" id="zip" size="27px" required/>
+                    </div>
                   </div>
-                  <div class="form-part5">
-                    <label for="zip">Zip Code:</label>
-                    <input type="text" name="zip" id="zip" size="22px" required/>
-                  </div>
-                  <div class="form-part6">
+                  <div class="form-part6"> 
                     <label for="bday">Birth Date:</label>
-                    <input type="date" name="bday" id="bday" required />
+                    <input type="date" name="bday" id="bday" size="37px" required />
                   </div>
                   <div class="gender">
-                   <!--  <p>Gender:</p> -->
-                    <label for="gender">Gender</label>
+                    <label for="gender">Gender:</label>
                     <select id="gender" name="gender">
+                        <option>Choose an option</option>
                         <option value="female">Female</option>
                         <option value="male">Male</option>
                         <option value="notsay">Prefer not to say</option>
                     </select>
                   </div>
                   <div class="grade">
-                    <p>Grade:</p>
-                    <input type="radio" id="pre-sch" name="grade" value="pre-sch"/>
-                    <label for="grade">Pre-School</label>
-                    <input type="radio" id="pri" name="grade" value="1st"/>
-                    <label for="grade">1st</label>
-                    <input type="radio" id="sec" name="grade" value="2nd"/>
-                    <label for="grade">2nd</label>
-                    <input type="radio" id="ter" name="grade" value="3rd"/>
-                    <label for="grade">3rd</label>
-                    <input type="radio" id="cua" name="grade" value="4th"/>
-                    <label for="grade">4th</label>
-                    <input type="radio" id="qui" name="grade" value="5th"/>
-                    <label for="grade">5th</label>
+                    <label for="grade">Grade:</label>
+                    <select id="grade" name="grade">
+                        <option>Choose an option</option>
+                        <option value="presch">Pre-School</option>
+                        <option value="fst">First Grade</option>
+                        <option value="scnd">Second Grade</option>
+                        <option value="thrd">Third Grade</option>
+                        <option value="frth">Fourth Grade</option>
+                        <option value="ffth">Fifth Grade</option>
+                    </select>
                   </div>
                 </div>
-                <h3 class="sch">Which elementary school do you live near?</h3>
-                <span>Closest School:</span>
+                <h3 class="h3-sch">Which elementary school do you live near?</h3>
                 <div class="close-sch">
-                  <div class="close-sch-1">
-                    <div>
-                      <input type="radio" id="AJK" name="cl-sch" value="AJK"/>
-                      <label for="close-sch">AJ Katzenmaier</label>
-                    </div>
-                    <div>
-                      <input type="radio" id="G" name="cl-sch" value="G"/>
-                      <label for="close-sch">Greenbay</label>
-                    </div>
-                    <div>
-                      <input type="radio" id="HAY" name="cl-sch" value="HAY"/>
-                      <label for="close-sch">Howard A Yeager</label>
-                    </div>
-                  </div>
-                  <div class="close-sch-2">
-                    <div>
-                      <input type="radio" id="MPH" name="cl-sch" value="MPH"/>
-                      <label for="close-sch">Marjorie P Hart</label>
-                    </div>
-                    <div>
-                      <input type="radio" id="NE" name="cl-sch" value="NE"/>
-                      <label for="close-sch">North Elementary</label>
-                    </div>
-                    <div>
-                      <input type="radio" id="SE" name="cl-sch" value="SE"/>
-                      <label for="close-sch">South Elementary</label>
-                    </div>
-                  </div>  
+                  <label for="close-sch">Closest School:</label>
+                  <select id="close-sch" name="close-sch">
+                        <option>Choose an option</option>
+                        <option value="AJK">AJ Katzenmaier Academy</option>
+                        <option value="GB">Green Bay Academy</option>
+                        <option value="HAY">Howard A. Yeager School</option>
+                        <option value="MPH">Marjorie P. Hart Elementary</option>
+                        <option value="NE">North Elementary</option>
+                        <option value="SE">South Elementary</option>
+                  </select>
                 </div>
-                <h3>
+                <h3 class="h3-posi">
                   What position(s) do you normally play? (check all that apply)
                 </h3>
                 <div class="position">
-                  <div class="posi-1">
-                    <div>
-                      <input type="checkbox" id="fordw" name="fordw" value="fordw"/>
-                      <label for="position">Fordward</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="def" name="def" value="def"/>
-                      <label for="position">Defense</label>
-                    </div>
-                  </div>
-                  <div class="posi-2">
-                    <div>
-                      <input type="checkbox" id="mid" name="mid" value="mid"/>
-                      <label for="position">Midfield</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="goalk" name="goalk" value="gaolk"/>
-                      <label for="position">Goalkeeper</label>
-                    </div>
-                  </div>
+                  <label for="position">Position:</label>
+                  <select id="position" name="position">
+                        <option>Choose an option</option>
+                        <option value="fordward">Fordward</option>
+                        <option value="midfield">Midfield</option>
+                        <option value="defense">Defense</option>
+                        <option value="goalkeeper">Goalkeeper</option>
+                  </select>
                 </div>
-                <h3>Uniform Size:</h3>
+                <h3 class="h3-uni">Uniform Size:</h3>
                 <div class="uniform">
-                  <div class="uni-1">
-                    <div>
-                      <input type="checkbox" id="ys" name="uniform" value="ys"/>
-                      <label for="uniform">Youth Small</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="ym" name="uniform" value="ym"/>
-                      <label for="uniform">Youth Medium</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="yl" name="uniform" value="yl"/>
-                      <label for="uniform">Youth Large</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="s" name="uniform" value="s"/>
-                      <label for="uniform">Small</label>
-                    </div>
-                  </div>
-                  <div class="uni-2">
-                    <div>
-                      <input type="checkbox" id="m" name="uniform" value="m"/>
-                      <label for="uniform">Medium</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="l" name="uniform" value="l"/>
-                      <label for="uniform">Large</label>
-                    </div>
-                    <div>
-                      <input type="checkbox" id="xl" name="uniform" value="xl"/>
-                      <label for="uniform">Extra-Large</label>
-                    </div>
-                  </div>
+                  <select id="uniform" name="uniform">
+                    <option>Choose an option</option>
+                    <option value="ys">Youth Small</option>
+                    <option value="ym">Youth Medium</option>
+                    <option value="yl">Youth Large</option>
+                    <option value="s">Small</option>
+                    <option value="m">Medium</option>
+                    <option value="l">Large</option>
+                    <option value="xl">Extra Large</option>
+              </select>
                 </div>
                 <h3 class="h3-ptoplay">Permission to Play</h3>
                 <div class="ptoplay">
@@ -219,16 +166,18 @@
                   </p>
                   <div class="pertoplay">
                     <div class="pertop-1">
-                      <label for="pertoplay">Parent/Guardian Signature</label>
+                      <label for="pertoplay">Parent/Guardian Signature:</label>
                       <input type="text" id="sign" name="pertoplay" size="40px" required/>
                     </div>
                     <div class="pertop-2">
-                      <label for="pertoplay">Date</label>
+                      <label for="pertoplay">Date:</label>
                       <input type="date" id="signdate" name="pertoplay" required/> 
                     </div>
                 </div>
               </form>
-              <button>Submit</button>
+              <div class="form-button">
+                <button class="form-b" type="submit" style="vertical-align:middle"><span>Submit</span></button>
+              </div>
             </div>
         </section>
 </body>

@@ -470,7 +470,7 @@ footer {
   flex-direction: column;
   position: relative;
   align-items: center;
-  height: 11%;
+  height: 13%;
   width: 100%;
   background-color: rgb(0, 0, 0);
   color: whitesmoke;
@@ -488,7 +488,7 @@ footer > p {
   align-items: center;
   position: fixed;
   bottom: 0%;
-  height: 11%;
+  height: 12%;
   width: 100%;
   background-color: rgb(0, 0, 0);
   padding-bottom: 1%;
@@ -718,3 +718,239 @@ iframe {
   padding-top: 3%;
 }
 
+.h2RF-container {
+  background-color: rgb(0, 0, 0, 0.9);
+  width: 50%;
+  padding: 6px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 2%;
+  
+}
+
+.h2RF-container > h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 0.5%;
+  margin-top: 0%;
+}
+
+.h2RF-container > span {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+.form-section {
+  display: flex;
+  justify-content: center;
+  height: 200vh;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  /* background-color: rgb(190, 182, 182, 0.3); */
+  background-color: rgb(235, 177, 42, 0.9);
+  padding: 2%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  border-radius: 15px;
+}
+
+form {
+  margin: 4% 0%;
+}
+
+.form-first-part {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
+.form-part1 {
+  padding: 0% 2% 2% 0%;
+}
+
+.form-part2 {
+  padding: 0% 0% 2% 0%;
+}
+
+.form-part3 {
+  padding: 0% 0% 2% 0%;
+  width: 100%;
+}
+
+.form-part4 {
+  padding: 0% 3% 2% 0%;
+}
+
+.form-part5 {
+  padding: 0% 0% 2% 0%;
+}
+
+.fomr-part6 {
+  padding: 0% 0% 2% 0%;
+}
+
+.gender {
+  padding: 0% 1% 0% 3%;
+  width: 40%;
+}
+
+.gender > select {
+  font-family: unset;
+  padding: 2%
+  
+}
+
+/* .gender > p {
+  padding: 0%;
+  padding-left: 0%;
+  margin: 0%;
+  display: inline;
+} */
+
+.gender > label {
+  padding: 0%;
+  display: inline;
+}
+
+.grade {
+  padding: 2% 0% 0% 0%;
+}
+
+.grade > p {
+  padding: 0%;
+  margin: 0%;
+  display: inline;
+}
+
+.sch {
+  margin-top: 7%;
+}
+
+.close-sch {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+}
+
+.close-sch > label {
+  padding: 0%;
+}
+
+.close-sch-1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+}
+
+.close-sch-1 > div {
+  margin: 3% 0%;
+}
+
+.close-sch-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  padding-top: 1%;
+}
+
+.close-sch-2 > div {
+  margin: 3% 0%;
+}
+
+.position {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+}
+
+.posi-1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+}
+
+.posi-1 > div {
+  margin: 3% 0%;
+}
+
+.posi-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  padding-top: 1%;
+}
+
+.posi-2 > div {
+  margin: 3% 0%;
+}
+
+.uniform {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 5%;
+}
+
+.uni-1 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1%;
+}
+
+.uni-1 > div {
+  margin: 3% 0%;
+}
+
+.uni-2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  padding-top: 1%;
+}
+
+.uni-2 > div {
+  margin: 3% 0%;
+}
+
+.h3-ptoplay {
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.ptoplay > p {
+  padding: 0%;
+  margin: 0%;
+}
+
+.pertoplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.pertop-1 {
+  margin-bottom: 1%;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgb(27, 27, 27);
+    background-color: rgb(190, 182, 182, 0.0);
+}
+
+input[type=date] {
+  border: none;
+  border-bottom: 1px solid rgb(27, 27, 27);
+  background-color: rgb(190, 182, 182, 0.0);
+}
+
+button {
+  font-size: 15px;
+}

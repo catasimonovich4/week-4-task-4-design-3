@@ -60,24 +60,24 @@
                 <div class="form-first-part">
                   <div class="form-part1">
                     <label for="first-name">First Name:</label>
-                    <input type="text" id="firstname" name="firstname" size="73px" required/>
+                    <input type="text" id="firstname" name="firstname" size="58px" required/>
                   </div>
                   <div class="form-part2">
                     <label for="last-name">Last Name:</label>
-                    <input type="text" id="lastname" name="lastname" size="73px" required/>
+                    <input type="text" id="lastname" name="lastname" size="58px" required/>
                   </div>
                   <div class="form-part3">
                     <label for="address">Street Address:</label>
-                    <input type="text" name="address" id="street-addres" size="68px" required/>
+                    <input type="text" name="address" id="street-addres" size="54px" required/>
                   </div>
                   <div class="form-city-zip">
                     <div class="form-part4">
                       <label for="city">City:</label>
-                      <input type="text" name="city" id="city" size="36px" required/>
+                      <input type="text" name="city" id="city" size="25px" required/>
                     </div>
                     <div class="form-part5">
                       <label for="zip">Zip Code:</label>
-                      <input type="text" name="zip" id="zip" size="27px" required/>
+                      <input type="text" name="zip" id="zip" size="26px" required/>
                     </div>
                   </div>
                   <div class="form-part6"> 
@@ -123,14 +123,14 @@
                   What position(s) do you normally play? (check all that apply)
                 </h3>
                 <div class="position">
-                  <label for="position">Position:</label>
-                  <select id="position" name="position">
-                        <option>Choose an option</option>
-                        <option value="fordward">Fordward</option>
-                        <option value="midfield">Midfield</option>
-                        <option value="defense">Defense</option>
-                        <option value="goalkeeper">Goalkeeper</option>
-                  </select>
+                  <input type="checkbox" id="fordw" name="fordw" value="fordw"/>
+                  <label for="position">Fordward</label>
+                  <input type="checkbox" id="mid" name="mid" value="mid"/>
+                  <label for="position">Midfield</label>
+                  <input type="checkbox" id="def" name="def" value="def"/>
+                  <label for="position">Defense</label>
+                  <input type="checkbox" id="goalk" name="goalk" value="gaolk"/>
+                  <label for="position">Goalkeeper</label>
                 </div>
                 <h3 class="h3-uni">Uniform Size:</h3>
                 <div class="uniform">
@@ -143,36 +143,38 @@
                     <option value="m">Medium</option>
                     <option value="l">Large</option>
                     <option value="xl">Extra Large</option>
-              </select>
+                  </select>
                 </div>
-                <h3 class="h3-ptoplay">Permission to Play</h3>
-                <div class="ptoplay">
-                  <p>I, the parent or guardian of the minor registrant, agree that the
-                    registrant and I will abide by all the rules of the Mighty Ducks
-                    Hockey League (MDHL). In recognizing the possibility of physical
-                    injury associated with hockey and in consideration for the "League"
-                    accepting the registrant for its hockey programs and activities, I
-                    hereby release, discharge, and/or otherwise indemnify MDHL, their
-                    employees and associated personnel and volunteers, including the
-                    facilities used for practices and games, against any claim by or on
-                    behalf of the registrant as a result of the registrant's
-                    participation in the program and/or being transported to or from
-                    MDHL sponsored activities, which transportation.By entering your
-                    name below, I hereby agree and authorize the above. 
-                  </p>
-                  <p>
-                    In addition, by signing below, I also acknowledge that I have read 
-                    the cancellation policy and agree to its terms.
-                  </p>
-                  <div class="pertoplay">
-                    <div class="pertop-1">
-                      <label for="pertoplay">Parent/Guardian Signature:</label>
-                      <input type="text" id="sign" name="pertoplay" size="40px" required/>
-                    </div>
-                    <div class="pertop-2">
-                      <label for="pertoplay">Date:</label>
-                      <input type="date" id="signdate" name="pertoplay" required/> 
-                    </div>
+                <div class="perm-to-play">
+                  <h3 class="h3-ptoplay">Permission to Play</h3>
+                  <div class="ptoplay">
+                    <p>I, the parent or guardian of the minor registrant, agree that the
+                      registrant and I will abide by all the rules of the Mighty Ducks
+                      Hockey League (MDHL). In recognizing the possibility of physical
+                      injury associated with hockey and in consideration for the "League"
+                      accepting the registrant for its hockey programs and activities, I
+                      hereby release, discharge, and/or otherwise indemnify MDHL, their
+                      employees and associated personnel and volunteers, including the
+                      facilities used for practices and games, against any claim by or on
+                      behalf of the registrant as a result of the registrant's
+                      participation in the program and/or being transported to or from
+                      MDHL sponsored activities, which transportation.By entering your
+                      name below, I hereby agree and authorize the above. 
+                    </p>
+                    <p>
+                      In addition, by signing below, I also acknowledge that I have read 
+                      the cancellation policy and agree to its terms.
+                    </p>
+                    <div class="pertoplay">
+                      <div class="pertop-1">
+                        <label for="pertoplay">Parent/Guardian Signature:</label>
+                        <input type="text" id="sign" name="pertoplay" size="40px" required/>
+                      </div>
+                      <div class="pertop-2">
+                        <label for="pertoplay">Date:</label>
+                        <input type="date" id="signdate" name="pertoplay" required/> 
+                      </div>
+                  </div>
                 </div>
               </form>
               <div class="form-button">

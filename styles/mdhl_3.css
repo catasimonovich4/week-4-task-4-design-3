@@ -279,7 +279,10 @@ h4 {
 
 .ol-li-rules {
   padding-bottom: 20px;
+  padding-right: 2%;
   margin-top: 0px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .rules-text2 {
@@ -367,11 +370,11 @@ header {
 }
 .group-info1 {
   margin: 1%;
+  text-align: justify;
 }
 
 .group-info1 > p {
   display: inline;
-  
 }
 
 .h2GI-container {
@@ -744,7 +747,7 @@ iframe {
 .form-section {
   display: flex;
   justify-content: center;
-  height: 185vh;
+  height: 180vh;
 }
 
 .form-container {
@@ -777,17 +780,30 @@ form {
   padding: 0% 2% 2% 0%;
 }
 
+.form-part1 > input {
+padding: 0.3%;
+}
+
 .form-part2 {
   padding: 0% 0% 2% 0%;
 }
 
+.form-part2 > input {
+  padding: 0.3%;
+}
+  
 .form-part3 {
   padding: 0% 0% 2% 0%;
   width: 100%;
 }
 
+.form-part3 > input {
+  padding: 0.3%;
+}
+
 .form-city-zip {
   display: flex;
+  
 }
 
 .form-part4 {
@@ -871,20 +887,19 @@ form {
 .position {
   display: flex;
   margin-top: 1%;
-  margin-bottom: 4%;
 }
 
-.position > select {
-  display: inline;
-  font-family: unset;
-  padding: 1%;
-  margin-left: 1%;
-  width: 84%;
+.position > input {
+  padding: 3%;
+  width: 3%;
+  opacity: 0.4;
+  background-color: rgb(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
 .position > label {
-  padding: 1% 1% 1% 0%;
-  font-size: 17px;
+  padding: 2%;
+  font-size: 18px;
 }
 
 .uniform {
@@ -906,21 +921,24 @@ form {
   margin-bottom: 0%;
 }
 
-.ptoplay > p {
-  padding: 0%;
-  margin: 0%;
-}
-
-.h3-ptoplay {
-  margin-top: 2%;
-  margin-bottom: 1%;
-}
-
 .pertoplay {
   display: flex;
   flex-direction: column;
   margin-top: 2%;
   margin-bottom: 3%;
+}
+
+.ptoplay > p {
+  padding: 0%;
+  padding-right: 3%;
+  margin: 0%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.h3-ptoplay {
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 .pertop-1 > input{
@@ -940,6 +958,8 @@ input[type=text] {
   border-radius: 5px;
   border: none;
   background-color: rgb(255, 255, 255, 0.3);
+  font-family: unset;
+  font-size: 16px;
 }
 
 input[type=date] {
@@ -963,7 +983,8 @@ select {
   text-align: center;
   font-size: 17px;
   padding: 5px;
-  width: 200px;
+  margin-top: 2%;
+  width: 98%;
   transition: all 0.5s;
   cursor: pointer;
   margin-bottom: 2%;
